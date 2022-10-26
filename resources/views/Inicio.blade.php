@@ -2,6 +2,6 @@
 
 @section('contenido')
 
-    <h1> Stock </h1>
+    <h1> Inicio </h1>
 
 @stop
