@@ -54,9 +54,12 @@
                                 <br>
                               <!--  <img src="https://www.anmosugoi.com/wp-content/uploads/2020/09/goblin-slayer.jpg" width="30%" height="30%"/> -->
                               <!--  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Faoinatsuzora%2Fstatus%2F1113172226013003776&psig=AOvVaw0xngMrB9UgFxS2bMLDmIif&ust=1666882994032000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCNDbm5iV_voCFQAAAAAdAAAAABAU" width="30%" height="30%"/> -->
-                                    <img src="https:////c.tenor.com/VL8V2CCwUTUAAAAC/monitachina5510.gif" width="30%" height="30%" /><br>              
-                                </div>
-                                    <a href="Inicio" class="btn btn-primary mt-4">Entrar</a>
+                                    <img src="https:////c.tenor.com/VL8V2CCwUTUAAAAC/monitachina5510.gif" width="45%" height="45%"> 
+                                    <br>              
+                                </div><br> 
+
+                                    <!-- <a href="Inicio" class="btn btn-primary mt-4">Entrar</a> -->
+                                    <button type="button" onclick="location.href='Inicio'">Entrar</button>
                                     
                             </div>
                         </div>
