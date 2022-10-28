@@ -44,7 +44,9 @@
 
 <!--  Contenido -->
 
+
 @yield('contenido')
+
 
 
 <!--Pie de Pagina-->
