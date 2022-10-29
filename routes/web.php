@@ -1,18 +1,27 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\controladorVistas;
 
 /*
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
 Route::get('/', function () {
     return view('welcome');
 });
+ 
+*/
+
+/*Rutas individuales por controlador*/
+
+Route::get('/', [controladorVistas::class,'showWelcome'])->name('apWelc');  
+Route::get('Inicio', [controladorVistas::class,'showInicio'])->name('apIni');
+Route::get('Formulario', [controladorVistas::class,'showFormulario'])->name('apForm');
+Route::get('Tabla', [controladorVistas::class,'showTabla'])->name('apTab');
+
+
+
+/*Rutas POST para envio de datos en formulario*/
+Route::post('CargarRegistro', [controladorVistas::class,'procesarRegistro'])->name('CarReg');
